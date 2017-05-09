@@ -23,4 +23,9 @@ public class TestCar {
 		c.setRate(60);
 		assertTrue(c.getengineCapacity() > 100);
 	}
+	public void testforsuccess4() {
+		Car c = new Car();
+		c.setRate(60);
+		assertFalse(c.getengineCapacity() > 100);
+	}
 }
